@@ -3544,18 +3544,6 @@ snapshots:
         hash: v1.k794b7964.08dd6b6ff90babc94016f15cece4f87ac9c733101503ab4d206bef311938de6b.11OskmuMksbFPIaDtmt8ptXswFKCZQsgje5sHpyWAXw
     filters-taxonomic-filter--dashboard-property-search--light:
         hash: v1.k794b7964.a31bf51a80fdca614f2f36470aa051fd7faaf638ab84f332e7de43c944763c27.CznVxf4UBAP6trCkcSE7LgkjTJ3IazUfzMIhS8XBUMM
-    filters-taxonomic-filter--empty-all-tab-with-event-match--dark:
-        hash: v1.k794b7964.58e7c99b2c92f0300216c4047c2d5ea1745dfa1a606a00270b0ebc779bed3cd5.1h_7F-InpV4zcCU2i8sGo8D9GpR-M9SK0ykFwUh1DDc
-    filters-taxonomic-filter--empty-all-tab-with-event-match--light:
-        hash: v1.k794b7964.d6233206def8eefa24c433869ed21a94e9aecb397191a29c9e61295e161c594e.Ov1Fg1yGqOdhCRLXbyljE-x8teQSz_x7DBTcCiPAfXw
-    filters-taxonomic-filter--empty-events-with-event-match--dark:
-        hash: v1.k794b7964.30d20341622aff37c27fca8216269d839cc72aafd5a9cfb3a195cdde5ba414ed.ioGVHMVBgkAMr11FVdKj-pgx05LSlkwl-vuXRF-t6sw
-    filters-taxonomic-filter--empty-events-with-event-match--light:
-        hash: v1.k794b7964.d07e5394b85d6064eb2e0e92a43e138b71b4248a015af59d6a901874a6c0acca.ViBqvpCMYJ44bOijsqT7TfxMKsAFBtBUnHmRT17SQG4
-    filters-taxonomic-filter--empty-events-with-event-match-loading--dark:
-        hash: v1.k794b7964.24731467b4e99a1205df0640091c2f333b1d276df97c510a3929bf9cf342c0ee.Nd_kUIeGDDTduX8hJoZx_QCHBEqzBTKHvWdTCVQvv3g
-    filters-taxonomic-filter--empty-events-with-event-match-loading--light:
-        hash: v1.k794b7964.b3739c41d624c8631591ea6d5c9b0e1035031597bc57c0cf0cc3d90271a9afa7.TAZSeJKZZHZ8UxY3u9yNqOWKF0uYgjX74V6AnP6zqTE
     filters-taxonomic-filter--empty-events-with-stale-toggle--dark:
         hash: v1.k794b7964.c9c8b86f1f196faf8bb7ff2fa3a8b662b5da749e9d740979253eefd3caef6d83.Vi2aZn3Sv-3nBjiCPo9tkuX4Dj5bZSq-4KMFkSMAKps
     filters-taxonomic-filter--empty-events-with-stale-toggle--light:
@@ -3596,18 +3584,6 @@ snapshots:
         hash: v1.k794b7964.fb64a7d9716fd41c8869b115f4ac78bb3395ec1be2255f20af59bb6177d2c700.s9XLCYFunwoPVwPblfGlEf9goZzuX7DhQ6B2dl_h35o
     filters-taxonomic-filter--renamed-series-selected-with-all-results--light:
         hash: v1.k794b7964.f1ac41cd5ca144c05d7c634b6a205b26770c11be092c3ce431fe7848d34c4c46.3MjHijLyJp8Hl7i13rb11qniC00r6a79PA1SOYozbEM
-    filters-taxonomic-filter--search-intent-promotes-group--dark:
-        hash: v1.k794b7964.766df8d6158f01b9864c247bc995d3fb55a86dd4a0fdfbc248da8af1cc79302c.ANZw3QXCem42kqNGFxV0FmAcTVFuXC0oZrD0MHBmGjI
-    filters-taxonomic-filter--search-intent-promotes-group--light:
-        hash: v1.k794b7964.8ccb8463d990f9bb233ec470d4cafdaea1c77db5c95081a244709a3bb37ccfe3.24JsJAJbSIDsfrZLCjhiDBPPe25vWfeULPxIpGlIyAI
-    filters-taxonomic-filter--search-intent-suggests-another-tab--dark:
-        hash: v1.k794b7964.ae81a09fb6b8fe350544175dc8f598dca3a9f8b891f608caf12a329fefc3ae0c.mnlES4DZH9OBmL6cqx87JoFJudJT0p8AhNJAuQd49pY
-    filters-taxonomic-filter--search-intent-suggests-another-tab--light:
-        hash: v1.k794b7964.2909336c0894e847d00d3a7b263aed9d0d81cfb60260f6c342fc3948baa44ce0.-LwDeNpie47RTNANsxUGt17Rsm3onS_E8sgbvC_MYyE
-    filters-taxonomic-filter--search-intent-suggests-another-tab-narrow--dark:
-        hash: v1.k794b7964.055c01a8c6b9bb907d952dac478fb778057f5d37fa0f246ec5f6c8e4cfab7b69.heJ4YVKLqh2X5RoS2S0dkZIj-7fWsJJWr42xYBYoJwA
-    filters-taxonomic-filter--search-intent-suggests-another-tab-narrow--light:
-        hash: v1.k794b7964.54d83cb9e3b3b914988b5622b616732ce6a446c8a93d5aa82018316ded67ffbf.VHwOU7QB7U1lzVxtOyJh7J1u1fqy89_jyNaCO2sliW8
     filters-taxonomic-filter--six-groups-default-layout--dark:
         hash: v1.k794b7964.945dbbdd4de969338dd9a41a0f83691bc55bd176799553b86767b36765c0a4b7.WqyxPqTefTl5kaCylmwN-Euhjf3P0yEXhVubjHV9n9A
     filters-taxonomic-filter--six-groups-default-layout--light:

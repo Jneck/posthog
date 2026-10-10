@@ -88,7 +88,6 @@ from .llm_prompt import LLMPromptViewSet
 from .oauth import OrganizationOAuthApplicationViewSet
 from .organization_notification_locks import OrganizationNotificationLockViewSet
 from .session import SessionViewSet
-from .taxonomic_search_intent import SearchIntentViewSet
 
 
 @decorators.api_view(["GET", "HEAD", "POST", "PUT", "PATCH", "DELETE"])
@@ -250,12 +249,6 @@ projects_router.register(
     property_definition_api.PropertyDefinitionViewSet,
     "project_property_definitions",
     ["project_id"],
-)
-projects_router.register(
-    r"taxonomic_search_intent",
-    SearchIntentViewSet,
-    "project_taxonomic_search_intent",
-    ["team_id"],
 )
 projects_router.register(r"emoji_search", EmojiSearchViewSet, "project_emoji_search", ["team_id"])
 projects_router.register(

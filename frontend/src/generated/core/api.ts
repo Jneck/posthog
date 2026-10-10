@@ -26,8 +26,6 @@ import type {
     EmojiSearchSuggestRetrieveParams,
     EnterprisePropertyDefinitionApi,
     EventIngestionRestrictionApi,
-    EventMatchRequestApi,
-    EventMatchResponseApi,
     EventPropertyValuesResponseApi,
     EventsValuesRetrieveParams,
     ExportedAssetApi,
@@ -96,8 +94,6 @@ import type {
     PropertyDefinitionsListParams,
     RevokeOtherSessionsResponseApi,
     SCIMTokenResponseApi,
-    SearchIntentRequestApi,
-    SearchIntentResponseApi,
     SharingConfigurationApi,
     TerminalNetplayMailboxApi,
     TerminalNetplayMailboxRetrieveParams,
@@ -2645,48 +2641,6 @@ export const sessionRecordingsSharingRefreshCreate = async (
         method: 'POST',
         headers: { 'Content-Type': 'application/json', ...options?.headers },
         body: JSON.stringify(sharingConfigurationApi),
-    })
-}
-
-export const getTaxonomicSearchIntentClassifyCreateUrl = (projectId: string) => {
-    return `/api/projects/${projectId}/taxonomic_search_intent/classify/`
-}
-
-/**
- * Guess which filter picker tab a search belongs to, so the picker can suggest or promote it.
- * @summary Classify a filter picker search
- */
-export const taxonomicSearchIntentClassifyCreate = async (
-    projectId: string,
-    searchIntentRequestApi: SearchIntentRequestApi,
-    options?: RequestInit
-): Promise<SearchIntentResponseApi> => {
-    return apiMutator<SearchIntentResponseApi>(getTaxonomicSearchIntentClassifyCreateUrl(projectId), {
-        ...options,
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...options?.headers },
-        body: JSON.stringify(searchIntentRequestApi),
-    })
-}
-
-export const getTaxonomicSearchIntentMatchEventsCreateUrl = (projectId: string) => {
-    return `/api/projects/${projectId}/taxonomic_search_intent/match_events/`
-}
-
-/**
- * Guess which PostHog core events a search that matched no event name describes.
- * @summary Match an events search to core events
- */
-export const taxonomicSearchIntentMatchEventsCreate = async (
-    projectId: string,
-    eventMatchRequestApi: EventMatchRequestApi,
-    options?: RequestInit
-): Promise<EventMatchResponseApi> => {
-    return apiMutator<EventMatchResponseApi>(getTaxonomicSearchIntentMatchEventsCreateUrl(projectId), {
-        ...options,
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', ...options?.headers },
-        body: JSON.stringify(eventMatchRequestApi),
     })
 }
 
